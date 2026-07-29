@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odin calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <!-- display with = button -->
+    <!-- grid for numbers 0123456789.C(12) 3 x 4 grid-->
+    <!-- column for operators add substract multiply divide (4)-->
+     <div class="calculator-body">
+        <div class="display">
+            <div id="display-sub-text">0</div>
+            <div id="display-text">0</div>
+        </div>
+        <div class="buttons">
+            <div class="button-row" id="row-one">
+                <button class="button-30" role="button" id="all-clear">clear</button>
+                <button class="button-30" role="button" id="delete">del</button>
+                <button class="button-30" role="button" id="divide">÷</button>
+            </div>
+            <div class="button-row" id="row-two">
+                <button class="button-30" role="button" id="7">7</button>
+                <button class="button-30" role="button" id="8">8</button>
+                <button class="button-30" role="button" id="9">9</button>
+                <button class="button-30" role="button" id="add">+</button>
+            </div>
+            <div class="button-row" id="row-three">
+                <button class="button-30" role="button" id="4">4</button>
+                <button class="button-30" role="button" id="5">5</button>
+                <button class="button-30" role="button" id="6">6</button>
+                <button class="button-30" role="button" id="subtract">-</button>
+            </div>
+            <div class="button-row" id="row-four">
+                <button class="button-30" role="button" id="1">1</button>
+                <button class="button-30" role="button" id="2">2</button>
+                <button class="button-30" role="button" id="3">3</button>
+                <button class="button-30" role="button" id="multiply">×</button>
+            </div>
+            <div class="button-row" id="row-five">
+                <button class="button-30" role="button" id="period">.</button>
+                <button class="button-30" role="button" id="0">0</button>
+                <button class="button-30" role="button" id="equal-to">=</button>
+            </div>
+        </div>
+     </div>
+</body>
+</html>

@@ -1,0 +1,124 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(12, 12, 12);
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+}
+
+.calculator-body,
+.buttons {
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+
+}
+
+.calculator-body {
+    padding: 16px 16px;
+    background-color: rgb(19, 19, 19);
+    box-shadow: 0px 0px 5px #fe84c9;
+
+}
+
+.button-row {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: stretch;
+    gap: 10px;
+}
+
+.display {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgb(10, 10, 10);
+    color: #fe84c9;
+    font-family: monospace;
+    font-size: 36px;
+    align-items: end;
+    box-shadow: rgba(0, 0, 0, 0.4) 0 2px 4px,
+     rgba(0, 0, 0, 0.3) 0 7px 13px -3px,
+      #141414 0 -3px 0 inset;
+
+}
+
+#display-text {
+    width: 260px;
+    text-align: right;
+    word-wrap: break-word;
+}
+
+#display-sub-text {
+    width: 260px;
+    text-align: right;
+    word-wrap: break-word;
+    font-size: 21px;
+    color: #9c9c9c;
+}
+
+#all-clear,
+#equal-to {
+    flex: 3.5;
+}
+
+/* CSS */
+.button-30 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex: 1;
+    appearance: none;
+    background-color: #1d1d1d;
+    border-radius: 10px;
+    border-width: 0;
+    box-shadow: rgba(0, 0, 0, 0.4) 0 2px 4px,
+     rgba(0, 0, 0, 0.3) 0 7px 13px -3px,
+      #141414 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: "JetBrains Mono", monospace;
+    height: 48px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow .15s, transform .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow, transform;
+    font-size: 18px;
+}
+
+
+.button-30:hover {
+    box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px,
+        rgba(45, 35, 66, 0.3) 0 7px 13px -3px,
+        #fe84c9 0 -3px 0 inset;
+    transform: translateY(-2px);
+}
+
+#all-clear:hover,
+#delete:hover {
+    color: rgb(255, 91, 129)
+}
+
+.button-30:active {
+    box-shadow: #101010 0 3px 7px inset;
+    transform: translateY(2px);
+}
