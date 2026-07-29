@@ -128,7 +128,7 @@ body {
     .calculator-body {
         width: 95%;
         max-width: 95%;
-        height: 98vh;
+        height: 90vh;
         margin: 0;
         padding: 30px;
         border-radius: 10px;
@@ -140,13 +140,12 @@ body {
     margin-top: 20px;
 }
 .display {
-    padding: 20px;
     margin-top: 40px;
    height: 25vh;
 }
 
 #display-text {
-    font-size: 50px;
+    font-size: 55px;
     width: 85vw;
 }
 
