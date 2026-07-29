@@ -44,8 +44,8 @@ body {
     font-size: 36px;
     align-items: end;
     box-shadow: rgba(0, 0, 0, 0.4) 0 2px 4px,
-     rgba(0, 0, 0, 0.3) 0 7px 13px -3px,
-      #141414 0 -3px 0 inset;
+        rgba(0, 0, 0, 0.3) 0 7px 13px -3px,
+        #141414 0 -3px 0 inset;
 
 }
 
@@ -79,8 +79,8 @@ body {
     border-radius: 10px;
     border-width: 0;
     box-shadow: rgba(0, 0, 0, 0.4) 0 2px 4px,
-     rgba(0, 0, 0, 0.3) 0 7px 13px -3px,
-      #141414 0 -3px 0 inset;
+        rgba(0, 0, 0, 0.3) 0 7px 13px -3px,
+        #141414 0 -3px 0 inset;
     box-sizing: border-box;
     color: #ffffff;
     cursor: pointer;
@@ -121,4 +121,46 @@ body {
 .button-30:active {
     box-shadow: #101010 0 3px 7px inset;
     transform: translateY(2px);
+}
+
+@media screen and (max-width: 568px) {
+
+    .calculator-body {
+        width: 95%;
+        max-width: 95%;
+        height: 98vh;
+        margin: 0;
+        padding: 30px;
+        border-radius: 10px;
+        box-sizing: border-box;
+         box-shadow: 0px 0px 10px #fe84c9;
+    }
+ 
+.button-row {
+    margin-top: 20px;
+}
+.display {
+    padding: 20px;
+    margin-top: 40px;
+   height: 25vh;
+}
+
+#display-text {
+    font-size: 50px;
+    width: 85vw;
+}
+
+#display-sub-text {
+    font-size: 25px;
+}
+.buttons {
+    margin-top: 30px;
+    width: 100%;
+    height: 80vh;
+}
+.button-30 {
+    height: 80px;
+    font-size: 30px;
+}
+
 }
